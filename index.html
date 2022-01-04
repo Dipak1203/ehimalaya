@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="logo.jpeg" type="image/x-icon">
+
+    <!-- Font awesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Style link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Logo section start -->
+    <div class="container-fluid" style="margin-top: 70px;" id="home">
+        <a href="">
+            <img src="logo.jpeg" alt="logo" class="img-fluid">
+        </a>
+        <h2 id="time" class="mt-3 mb-2"></h2>
+    </div>
+    <!-- Logo Section start -->
+
+
+
+    <!-- Navbar section is start -->
+
+
+    <header class="container-fluid mb-5">
+
+        <div class="container-fluid header">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(3, 3, 110);">
+                <a class="navbar-brand navbar_menu" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home"> <span class="sr-only">(current)</span><span><i
+                                        class="fas fa-home"></i></span> मुख्य पृष्ठ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#interview">अर्न्तार्वाता</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#news" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                समाचार
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-dark" href="#politician">राजनीति</a></li>
+                                <li><a class="dropdown-item text-dark" href="#agriculture">कृषि</a></li>
+                                <li><a class="dropdown-item text-dark" href="#social">समाज</a></li>
+                                <li><a class="dropdown-item text-dark" href="#coat">अदालत</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#thinking">विचार</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#commercial">अर्थ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sport">खेलकुद</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#entertainment">मनोरंजन</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle " href="#foreign" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                विदेश
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-dark " href="#">प्रवाश</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#tech" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                टेक्नोलोजी
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-dark " href="#tech">प्रबिधि</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="#health">स्वास्थ्य/जीवनशैली</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                प्रदेश समाचार
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-dark" href="#">प्रदेश १</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">प्रदेश २</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">बागमती प्रदेश</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">गणद्की प्रदेश </a></li>
+                                <li><a class="dropdown-item text-dark" href="#">कर्णाली प्रदेश</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">सुदूरपश्चिम प्रदेश</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">लुम्बिनी प्रदेश</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <!-- Navbar section is End -->
+
+
+    <!--  -->
+    <div class="container shadow-lg my-5">
+        <div class="text-center">
+            <a href="">
+                <h1 class="header_heading">ललिता निवास प्रकरणका मुख्य आरोपी सुवेदी दम्पती पक्राउ</h1>
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid shadow-lg mt-5 ">
+        <div class="text-center">
+            <a href="" class="text-center">
+                <button class="btn btn-danger">राजनीति</button>
+            </a>
+            <a href="">
+                <h1 class="text-center my-5 header_heading">एमालेको अवरोधका बीच प्रतिनिधिसभाबाट चार अध्यादेश स्विकृत
+                </h1>
+            </a>
+            <img src="rajniti.jpg" alt="" class="img-fluid box shadow">
+        </div>
+    </div>
+
+    <div class="container-fluid shadow-lg my-5">
+        <div class="text-center">
+            <a href="" class="text-center">
+                <button class="btn btn-danger">राजनीति</button>
+            </a>
+            <a href="">
+                <h1 class="text-center my-5 header_heading">माओवादी केन्द्रले आगामी राष्ट्रिय सम्मेलनबाट पार्टीमा नयाँ
+                    <br> क्रान्तिकारी विचार निर्माण गर्ने
+                </h1>
+            </a>
+            <img src="rajniti2.jpg" alt="" class="img-fluid box shadow">
+        </div>
+    </div>
+
+
+    <!-- Image Slider Section is Start -->
+    <div class="container my-5" id="thinking">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="corona.jpg" class="d-block w-100 img-fluid" alt="corona update">
+                            <a href="">
+                                <h1>थप २९० जनामा कोरोना संक्रमण, तीन संक्रमितको मृत्यु </h1>
+
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="minister.jpg" class="d-block w-100 box shadow" alt="...">
+                            <a href="">
+                                <h1>प्रधानन्यायाधीशको बहिर्गमनका लागि राजनीतिक दलहरूले निर्णय गर्नुपर्छ : श्रेष्ठ</h1>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="ah.png" class="d-block w-100 box shadow" alt="...">
+                            <a href="">
+                                <h1>संसद्मा प्रमुख प्रतिपक्षी एमालेको अवरोध जारी, असहमतिका विषय संसद्मै राखेर अघि बढ्न एमालेलाई सभामुखको आग्रह
+                                </h1>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="ah.png" class="d-block w-100 box shadow" alt="...">
+                            <a href="">
+                                <h1>संसद्मा प्रमुख प्रतिपक्षी एमालेको अवरोध जारी, असहमतिका विषय संसद्मै राखेर अघि बढ्न एमालेलाई सभामुखको आग्रह
+                                </h1>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="news_heading">
+                    <h3 class=" text-light p-3 tajha_khabar">ताजा खबर</h3>
+                </div>
+
+                <div class="scroll" data-spy="scroll" data-target=".card" data-offset="50">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 shadow-lg">
+                                <img src="kheladi.jpg" class="img-fluid rounded-start shadow-lg" alt="">
+                            </div>
+                            <div class="col-md-8 shadow-lg">
+                                <div class="card-body">
+                                    <a href="">
+                                        <h5 class="card-title">राष्ट्रिय टोलीका चार खेलाडीमाथिको कारबाही फिर्ता गर्न क्यानका सदस्यको माग</h5>
+                                    </a>
+                                    <p class="card-text"><small class="text-muted">पुष ७, २०७८ (५:५२ PM)हिमालय
+                                            टाइम्स</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 shadow-lg">
+                                <img src="limdam.jpg" class="img-fluid rounded-start shadow-lg" alt="">
+                            </div>
+                            <div class="col-md-8 shadow-lg">
+                                <div class="card-body">
+                                    <a href="">
+                                        <h5 class="card-title">संसद सूचारु गराउन सरकार र प्रमुख प्रतिपक्ष दल गम्भीर भएनन् : अध्यक्ष लिङ्देन</h5>
+                                    </a>
+                                    <p class="card-text"><small class="text-muted">पुष ७, २०७८ (३.२३ PM)हिमालय
+                                            टाइम्स</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 shadow-lg">
+                                <img src="health.jpg" class="img-fluid rounded-start shadow-lg" alt="">
+                            </div>
+                            <div class="col-md-8 shadow-lg">
+                                <div class="card-body">
+                                    <a href="">
+                                        <h5 class="card-title">नेपालमा थप एक जनामा ‘ओमिक्रोन’ भेरियन्ट संक्रमण पुष्टि
+                                        </h5>
+                                    </a>
+                                    <p class="card-text"><small class="text-muted">पुष ७, २०७८ (३.२३ PM)हिमालय
+                                            टाइम्स</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 shadow-lg">
+                                <img src="criket.jpg" class="img-fluid rounded-start shadow-lg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <a href="">
+                                        <h5 class="card-title">प्रधानमन्त्री कप महिला क्रिकेट प्रतियोगिता : सुदूरपश्चिमलाई हराउँदै एपिएफ सेमिफाईनलमा</h5>
+                                    </a>
+                                    <p class="card-text"><small class="text-muted">पुष ७, २०७८ (३.२३ PM)हिमालय
+                                            टाइम्स</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Rajniti Section  Start-->
+
+    <div class="container-fluid mb-5" id="politician">
+        <h1 style="border-bottom: 2px solid red;" class="text-danger">राजनीति</h1>
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="pati.jpg" class="d-block w-100 box shadow" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="">
+                                    <h1 class="bg-dark text-light">नेत्री दर्शनाद्वारा पार्टी परित्यागको घोषणा</h1>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="congress.jpg" class="d-block w-100 box shadow" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="">
+                                    <h1 class="bg-dark text-light">कांग्रेस प्रदेश नं २ को नयाँ नेतृत्व चयनका लागि आज मतदान हुँदै</h1>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="maodi.png" class="d-block w-100 box shadow" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="">
+                                    <h1 class="text-light bg-dark">विचार र पार्टी निर्माणको दिशामा माओवादीको राष्ट्रिय सम्मेलन
+                                    </h1>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="bg-image img-fluid box shadow " style="
+    background-image: url('congress2.jpg'); height: 30vh; ">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <h6 class="text-center mt-5 h-100">
+                                <a href="" class="text-light">कांग्रेस महाधिवेशन : कलस्टर कोटामा सीमित कांग्रेस
+                                    उम्मेदवार, खुलामा लड्न आँटै गरेनन्</a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-image mt-5 img-fluid box shadow rounded" style="
+                background-image: url('bichar.png'); height: 30vh; ">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <h6 class="text-center mt-5 h-100">
+                                <a href="" class="text-light">विचार र पार्टी निर्माणको दिशामा माओवादीको राष्ट्रिय
+                                    सम्मेलन</a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="text-center">
+                    <h4 class="text-light py-2" style="background-color: rgb(32, 32, 143);">सम्पादकीय</h4>
+                    <li class="mt-4">
+                        <a href="" class="text-dark">बार र बेन्च अझै संघर्षमा !</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="" class="text-dark">प्रतिगमन पछिको राजनीतिक बाटो
+                        </a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="" class="text-dark">बुझाइ र दृष्टिकोणको फरक
+                        </a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="" class="text-dark">सर्वदलीय बैठक र एमसिसी
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rajniti Section  End-->
+
+
+    <!-- Samaj section is start -->
+    <div class="container" id="social">
+        <h1 class="text-danger mr-4" style="border-bottom: 2px solid red;">समाज</h1>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="card h-100">
+                    <img src="corona.jpg" class="card-img-top img-fluid rounded" alt="imges">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="" class="text-dark">थप २९३ जनामा कोरोना संक्रमण, दुई संक्रमितको मृत्यु</a>
+                        </h5>
+                        <a href="" class=""> <small class="text-muted">काठमाडौं । पछिल्लो २४ घण्टामा थप २९३ जनामा कोरोना
+                                संक्रमण पुष्टि भएको छ ।स्वास्थ्य तथा जनसंख्या मन्त्रालयका अनुसार ९ हजार ५१०</small> </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-5 col-12">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 box shadow">
+                            <img src="samaj1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" class="text-dark">तराईको गर्मीबाट कन्यामको हुस्सुसँग लुकामारी खेल्न जान
+                                        सकिने पदमार्ग निर्माण</a>
+                                </h5>
+                                <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६
+                                        PM)</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 box shadow">
+                            <img src="samaj2.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="" class="text-dark">मनकामना केबलकार नियमित सञ्चालन</a>
+                                </h5>
+                                <p class="card-text"><small class="text-muted"> POSTED ON : पुष १०, २०७८ (३:४६
+                                        PM)</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-md-4 box shadow">
+                        <img src="samaj3.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="" class="text-dark">क्रिकेट रङ्गशालाको विद्युत् लाइन काटियो</a>
+                            </h5>
+                            <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६ PM)</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12">
+                <h4 class="text-light text-center py-2" style="background-color: rgb(32, 32, 143);">साहित्य</h4>
+                <h5 class="mt-4"><a href="" class="text-dark">दुई नाउको यात्री तर दुवैमा सफल</a></h5>
+                <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६ PM)</small></p>
+                <h5 class="mt-4">
+                    <a href="" class="text-dark">ई.गणेशराज वस्तीको ‘परेली-तरेली’</a>
+                </h5>
+                <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६ PM)</small></p>
+                <h5 class="mt-4">
+                    <a href="" class="text-dark">पुस्तक : देवेन्द्र कण्डेलको ‘बोनसको जीवन’</a>
+                </h5>
+                <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६ PM)</small></p>
+                <h5 class="mt-4">
+                    <a href="" class="text-dark">सञ्चेतना संवाद-९</a>
+                </h5>
+                <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६ PM)</small></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Samaj Section is End -->
+
+
+
+
+
+    <!-- अर्थ section is start -->
+    <!-- Heading  -->
+    <div class="container-fluid mt-5 mb-0" id="commercial">
+        <h1 class="text-danger" style="border-bottom: 2px solid red; font-weight: 900;">अर्थ </h1>
+        <div class="row mx-4">
+            <div class="col-md-5 col-12">
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="artha1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">
+
+                                    पाँच महिनामा वैदेशिक व्यापार ६३ प्रतिशतले वृद्धि</a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०६ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="artha2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">अर्थतन्त्र पुनरुत्थानतर्फ गएको छ : राष्ट्र बैंक
+                                </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०६ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="artha3.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">एपेक्स कलेजमा केएमजीको लगानी
+                                </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०६ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="artha4.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">क्रिकेट रङ्गशालाको विद्युत् लाइन काटियो</a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६ PM)</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow text-center">
+                        <img src="artha5.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">प्राइमको १४औँ वार्षिक साधारणसभा
+
+                                </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०३ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="col-md-5 col-12">
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="artha6.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">
+
+                                    पाँच महिनामा वैदेशिक व्यापार ६३ प्रतिशतले वृद्धि</a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०६ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="artha7.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">अर्थतन्त्र पुनरुत्थानतर्फ गएको छ : राष्ट्र बैंक
+                                </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०६ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="artha8.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">एपेक्स कलेजमा केएमजीको लगानी
+                                </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०६ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="artha9.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">क्रिकेट रङ्गशालाको विद्युत् लाइन काटियो</a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६ PM)</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow text-center">
+                        <img src="artha10.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">प्राइमको १४औँ वार्षिक साधारणसभा
+
+                                </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०३ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-2 col-12 box shadow">
+                <div class="text-center">
+                    <h4 class="text-light py-2" style="background-color: rgb(32, 32, 143);">अन्तर्वार्ता</h4>
+                    <img src="artha11.jpg" alt="" class="img-fluid rounded">
+                    <h5>
+                        <a href="" class="text-dark">दलाल तथा सामन्तहरुको अवशेषले नेपालको राष्ट्रिय अर्थतन्त्रलाई
+                            स्वतन्त्र र आत्मनिर्भर हुन दिएको छैन : प्रचण्ड (अन्तर्वार्ता)
+                        </a>
+                    </h5>
+                    <p><a href=""><small class="text-muted">काठमाडौं । नेकपा माओबादी केन्द्रका अध्यक्ष पुष्पकमल दाहाल
+                                प्रचण्डले पार्टीको कार्यदिशामा ठुलो परिवर्तन आउने बताउनु भएको छ । २०६९ सालमा हेटौडामा
+                                भएको महाधिवेशनले लिएको ..</small></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- अर्थ section is end -->
+
+
+
+
+    <!-- Prabhas Section is Start -->
+    <div class="container-fluid mt-5">
+        <h1 class="text-danger" style="border-bottom: 2px solid red;">प्रवास</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row box shadow container">
+            <div class="col-md-3 col-12 box shadow">
+                <img src="himalaya.jpg" alt="" class="img-fluid rounded shadow">
+                <h4 class="mt-2">
+                    <a href="" class="text-dark">प्रवास दक्षिण एसियाली विद्यार्थी समिटमा नेपाली समूह प्रथम</a>
+                </h4>
+                <p><small class="text-muted">काठमाडौं । साउथ एसियन इकोनोमिस्ट स्टुडेन्ट समिटमा भाग लिएका पाल्पाको त्रिभुवन बहुमुखी क्याम्पसमा बिबिएस पाँचौँ सेमेस्टरमा अध्ययनरत निकिता शाही</small></p>
+            </div>
+
+            <div class="col-md-3 col-12 box shadow">
+                <img src="prabas1.jpg" alt="" class="img-fluid rounded shadow">
+                <h4 class="mt-2"><a href="" class="text-dark">नेपाली भाषालाई विश्वमा चिनाउनु पर्छ :मुख्यमन्त्री गोले (सिक्किम)</a></h4>
+                <p><small class="text-muted">झापा । नेपाली भाषीको बाहुल्यता रहेको छिमेकी राष्ट्र भारतको पूर्वोत्तर सिक्किम राज्यको मनन भवनमा दर्शक खचाखच भरिएका थिए । भवनमा दर्शकको ताली,</small></p>
+            </div>
+
+            <div class="col-md-3 col-12 box shadow">
+                <img src="prabas2.jpg" alt="" class="img-fluid rounded shadow">
+                <h4 class="mt-2"><a href="" class="text-dark">एनआरएनए र सरकारबीच टकराव</a></h4>
+                <p><small class="text-muted">काठमाडौं । सरकार र गैरआवासीय नेपाली संघ (एनआरएनए) बीच विवाद चर्किएको छ । गत अक्टोबरमा सम्पन्न हुनुपर्ने एनआरएनएको १०औँ अन्तर्राष्ट्रिय</small></p>
+            </div>
+            <div class="col-md-3 col-12 box shadow">
+                <h4 class="text-center p-2 text-light" style="background-color:  rgb(18, 18, 156);">ब्लग/विविध</h4>
+                <div class="list">
+                    <h6 class="mt-3"><a href="" class="text-dark">नव निर्वाचित युवा महामन्त्रीलाई बधाई तथा सुझावसहितको शुभकामना !</a></h6>
+                    <h6 class="mt-3"><a href="" class="text-dark">नेपाली कांग्रेस काठमाडौको सभापतिमा कार्की नै किन ?</a></h6>
+                    <h6 class="mt-3"><a href="" class="text-dark">कविता : उनी</a></h6>
+                    <h6 class="mt-3"><a href="" class="text-dark">सिरुबारीमा आनी विमर्श : गिरिजाप्रसाददेखि ओलीसम्मs</a></h6>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Prabhas Section is End -->
+
+
+    <!-- Sport section start -->
+    <div class="container-fluid my-4" id="sport">
+        <h1 class="text-danger" style="border-bottom: 2px solid red; font-weight: 900;">खेलकुद
+        </h1>
+        <div class="row container">
+            <div class="col-md-4 col-12 box shadow">
+                <img src="sport.jpg" alt="sport " class="img-fluid rounded">
+                <h2 class="mt-4">
+                    <a href="" class="text-dark">नेपालको विजयी सुरुवात</a>
+                </h2>
+                <p><small class="text-muted">काठमाडौं । एसियन सिनियर सेन्ट्रल जोन पुरुष तथा महिला भलिबल च्यालेन्ज कपमा नेपालको महिला भलिबल टोलीले विजयी सुरुवात गरेको छ । बंगलादेशको ढाकामा बिहीबार सम्पन्न खेलमा श्रीलंकालाई तीन/दुईको सेटमा पराज</small></p>
+            </div>
+            <div class="col-md-4 col-12 box shadow">
+
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="sport1.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">
+    
+                                        स्पेनिस ला लिगा : बेन्जेमा चम्किएपछि रियल विजयी
+                                        </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ९, २०७८ (५:५१ AM) एजेन्सी</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="sport2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0"><a href="" class="text-dark">टेलिकम र सिल्क सेमिफाइनलमा</a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०६ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="sport3.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">प्रधानमन्त्री कप महिला क्रिकेट : सुदूरपश्चिम अन्तिम चारमा पुग्दा एपीएफ समूह विजेता
+                                        
+                                    </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ९, २०७८ (६:०० AM) एजेन्सी</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="sport4.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">मेरो ब्राण्डको कुनै मूल्य नै छैन : अनमोल</a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६ PM)</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <h4 class="text-light py-2 text-center" style="background-color: rgb(32, 32, 143);">जीवनशैली</h4>
+                <div class="mt-1">
+                    <h5>
+                        <a href="" class="text-dark">भारतमा थप सात हजार ४९५ जनालाई कोरोना संक्रमण, २३६ जनालाई ओमिक्रोन भेरियन्ट
+                           </a>
+                    </h5>
+                    <p><small class="text-muted"> पुष ८, २०७८ (३:५८ PM)हिमालय टाइम्स</small></p>
+
+                    <h5>
+                        <a href="" class="text-dark">होन्डुरसमा पहिलो महिला राष्ट्रपति
+                           </a>
+                    </h5>
+                    <p><small class="text-muted"> पुष ८, २०७८ (६:०५ AM)एजेन्सी</small></p>
+
+                    <h5>
+                        <a href="" class="text-dark">महँगो डिभोर्स : पत्नीसँग सम्बन्ध विच्छेद गरेबापत दुबईका शासकले ७३ करोड डलर तिर्नुपर्ने
+                           </a>
+                    </h5>
+                    <p><small class="text-muted"> पुष ८, २०७८ (६:०३ AM)एजेन्सी</small></p>
+                    <h5>
+                        <a href="" class="text-dark">चिनियाँ महिलाहरूको औसत आयु ८०.८८ वर्ष</a>
+                    </h5>
+                    <p><small class="text-muted"> पुष ८, २०७८ (६:०३ AM)एजेन्सी</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sport section End -->
+
+
+
+
+    <!-- मनोरोंजन section is start -->
+    <div class="container-fluid mt-5 mb-0" id="entertainment">
+        <h1 class="text-danger" style="border-bottom: 2px solid red; font-weight: 900;">मनोरंजन
+        </h1>
+        <div class="row mx-4">
+            <div class="col-md-4 col-12">
+
+
+                <img src="herion.jpg" alt="entertainment" class="img-fluid rounded">
+                <h1>रजतपटविरुद्ध वर्षाको उजुरी</h1>
+                <p><a href=""><small class="text-muted">काठमाडौं । अभिनेत्री वर्षा शिवाकोटीले टेलिभिजन कार्यक्रम ‘रजतपट’
+                            र त्यसका सञ्चालक प्रकाश सुवेदीविरुद्ध उजुरी दर्ता गराउनु भएको छ । एपीवान टेलिभिजनमा प्रसारण
+                            हुँदै आएको कार्यक्रम ‘रजतपट’ले आफ्नो व्य</small></a></p>
+
+            </div>
+            <div class="col-md-5 col-12">
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="paul.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">
+
+                                    रिबन काट्न महँगो पारिश्रमिकमा पल</a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०६ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="book.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">किताब जात्राको विश्व यात्रा सुरु
+
+                                </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ८, २०७८ (७:०६ AM) हिमालय टाइम्स</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="sunny.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">सन्नी ‘मधुवन’मा नाँच्दा विवाद
+                                    
+                                </a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> पुष ९, २०७८ (६:०० AM) एजेन्सी</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-0 my-0 py-0 box shadow">
+                    <div class="col-md-4 box shadow">
+                        <img src="anmol.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title mb-0 mt-0">
+                                <a href="" class="text-dark">मेरो ब्राण्डको कुनै मूल्य नै छैन : अनमोल</a>
+                            </p>
+                            <p class="card-text"><small class="text-muted"> POSTED ON : पुष ८, २०७८ (३:४६ PM)</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-12 box shadow">
+                <div class="">
+                    <h4 class="text-light py-2 text-center" style="background-color: rgb(32, 32, 143);">जीवनशैली</h4>
+                    <h6 class="mt-4">
+                        <a href="" class="text-dark">उड्ने मोटरसाइकल ‘होभरबाइक’
+                        </a>
+                    </h6>
+
+                    <p><small class="text-muted">कार्तिक १३, २०७८ (६:३० AM)एजेन्सी</small></p>
+
+                    <h6 class="mt-4"><a href="" class="text-dark">बढ्दै फोरजीका प्रयोगकर्ता
+                        </a></h6>
+
+                    <p><small class="text-muted">भदौ २७, २०७८ (६:४३ PM)हिमालय टाइम्स</small></p>
+                    <h6 class="mt-4">
+                        <a href="" class="text-dark">रातकोभन्दा विहानीपखको सेक्सलाई किन राम्रो मानिन्छ ?</a>
+                    </h6>
+                    <p><small class="text-muted">कार्तिक १३, २०७८ (६:३० AM)एजेन्सी</small></p>
+                    <h6 class="mt-4">
+                        <a href="" class="text-dark">यौन चरम आनन्द र दाम्पत्य सम्बन्ध
+                        </a>
+                    </h6>
+
+                    <p><small class="text-muted">कार्तिक १३, २०७८ (६:३० AM)एजेन्सी</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- मनोरोंजन section is End -->
+
+
+    <!-- 
+
+    <i class="fab fa-pinterest-square"></i>
+    <i class="fas fa-envelope"></i> -->
+
+    <!-- Footer Section Start -->
+    <footer class="">
+        <div class="container mt-5 mb-2">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <h3> <span style="color:aqua;font-weight: 900;font-size: 30px;">|</span> सम्पर्क</h3>
+                    <img src="logo.jpeg" alt="logo" class="img-fluid mr-2">
+                    <div class="my-4 p-0">
+                        <p class="footer_para">फोन– ०१-४४७८१७७ , ०१-४४६६३९३</p>
+                        <p class="footer_para"> इमेल– <a href="">desk@himalayatimes.com.np</a></p>
+                        <p class="footer_para">पोष्ट बक्स–११६७२</p>
+                        <p class="footer_para">इम्प्रेसन पब्लिकेसन एण्ड मिडिया प्रा.लि.द्वारा सञ्चालित</p>
+                        <p class="footer_para">केन्द्रीय कार्यालय – मध्यबानेश्वर काठमाडौं</p>
+                        <p class="footer_para">सूचना बिभाग दर्ता न : ४६३/०७४-७५</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <h3 class=""> <span style="color:aqua;font-weight: 900;font-size: 30px;">|</span> हाम्रो टीम</h3>
+                    <p class="text-weight-bold mt-5 mb-0">निर्देशक</p>
+                    <p class="mt-1"> __दिपक कुमाल</p>
+                </div>
+                <div class="col-md-4 col-12">
+
+                    <p class="text-weight-bold mt-5 mb-0">सम्पादक</p>
+                    <p class="mt-1"> __शिवराज कालाथोकी</p>
+                </div>
+            </div>
+            <div class="social_media text-center">
+                <a href="" class="text-dark">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="" class="text-dark">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="" class="text-dark">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <div class="top d-flex justify-content-end" id="#index.html">
+                    <button class="btn btn-danger"> <a href="#home" class="text-light">Top</a> </button>
+                </div>
+            </div>
+            <p class="text-center">ehimalayatimes.com © 2022. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Bootstrap 5  javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

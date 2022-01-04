@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Oswald:wght@200&family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --bg: rgb(18, 18, 156);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+.navbar_menu {
+    display: none;
+}
+
+.header_heading {
+    font-size: 40px;
+    color: var(--bg) !important;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+
+@media screen and (max-width:900px) {
+    .navbar_menu {
+        display: inline-block;
+    }
+}
+
+.news_heading {
+    background-color: var(--bg) !important;
+}
+
+.tajha_khabar {
+    font-size: 20px;
+}
+
+.scroll {}
+
+
+/* Footer section style */
+
+footer {
+    margin-top: 150px !important;
+}
+
+.footer_para {
+    font-size: 13px;
+}
